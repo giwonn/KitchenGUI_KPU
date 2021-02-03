@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kitchen.view.TempOptionDialogController">
+   <children>
+      <Label layoutX="14.0" layoutY="56.0" text="Size : ">
+         <font>
+            <Font size="52.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="183.0" text="ICE/HOT : ">
+         <font>
+            <Font size="52.0" />
+         </font>
+      </Label>
+      <Label fx:id="SizeLabel" layoutX="230.0" layoutY="56.0" text="Regular">
+         <font>
+            <Font size="52.0" />
+         </font>
+      </Label>
+      <Label fx:id="TempLabel" layoutX="314.0" layoutY="183.0" text="X">
+         <font>
+            <Font size="52.0" />
+         </font>
+      </Label>
+      <Button layoutX="495.0" layoutY="51.0" mnemonicParsing="false" onAction="#Size_Change" prefHeight="72.0" prefWidth="172.0" text="교체">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Button>
+      <Button layoutX="495.0" layoutY="178.0" mnemonicParsing="false" onAction="#Temp_Change" prefHeight="72.0" prefWidth="172.0" text="교체">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Button>
+      <Button layoutX="326.0" layoutY="305.0" mnemonicParsing="false" onAction="#handleOk" prefHeight="62.0" prefWidth="145.0" text="확인">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Button>
+      <Button layoutX="509.0" layoutY="305.0" mnemonicParsing="false" onAction="#handleCancel" prefHeight="62.0" prefWidth="145.0" text="취소">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Button>
+      <Button layoutX="173.0" layoutY="319.0" mnemonicParsing="false" onAction="#Plus_Menunum" prefHeight="17.0" prefWidth="21.0" text="+">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="85.0" layoutY="319.0" mnemonicParsing="false" onAction="#Minus_Menunum" prefHeight="17.0" prefWidth="21.0" text="-">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Label fx:id="MenunumLabel" alignment="CENTER" layoutX="120.0" layoutY="305.0" prefHeight="62.0" prefWidth="53.0" text="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="TempLabel11" layoutX="14.0" layoutY="305.0" prefHeight="62.0" prefWidth="72.0" text="수량: ">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <Button layoutX="230.0" layoutY="320.0" mnemonicParsing="false" onAction="#Init_Menunum" prefHeight="33.0" prefWidth="78.0" text="초기화">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
