@@ -3,7 +3,7 @@
 
 주 언어는 Java이며,
 
-**GUI**
+**GUI**<br>
 Kiosk 는 **Java Swing**<br>
 주방에서 보는 스크린은 **JavaFX**를 통하여 만들었습니다.
 <br><br>
