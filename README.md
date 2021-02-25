@@ -6,13 +6,13 @@
 **GUI**
 Kiosk 는 **Java Swing**
 주방에서 보는 스크린은 **JavaFX**를 통하여 만들었습니다.
-
+<br><br>
 Kiosk는
 https://github.com/inthej/McDonaldKiosk
 위의 코드를 바탕으로 제작하였고
 
 주방 스크린은 처음부터 직접 제작하였습니다.
-<br>
+<br><br>
 
 통신방식은 TCP/IP를 사용하였고, 다른 팀원이 진동벨도 만들었으나
 진동벨은 블루투스를 통하여 통신하였습니다.
