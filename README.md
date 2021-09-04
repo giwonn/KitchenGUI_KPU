@@ -1,11 +1,9 @@
 # KitchenGUI_KPU
  대학교 졸업작품(2017/06~2018/06)
 
-주 언어는 Java이며,
-
 **GUI**<br>
 - Kiosk 는 **Java Swing**<br>
-- 주방에서 보는 스크린은 **JavaFX**를 통하여 만들었습니다.
+- 주방에서 사용하는 프로그램은 **JavaFX**를 사용함
 <br><br>
 
 Kiosk는
